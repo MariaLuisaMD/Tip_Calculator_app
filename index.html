@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="./images/favicon-32x32.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>SPLI TTER</h1>
+    </header>
+    <main>
+        <div class="selec">
+            <div class="bill">
+                <label>Bill</label> 
+                <input type="text" id="valor">
+            </div>
+            <label>Select Tip %</label>
+            <div class="tips">
+                 <button class="tip"  value="5">5%</button>
+                 <button class="tip"  value="10">10%</button>
+                 <button class="tip"  value="15">15%</button>
+                 <button class="tip"  value="25">25%</button>
+                 <button class="tip"  value="50">50%</button>
+                 <input  type="text" id="tip" placeholder="Custom">
+            </div>
+            <div class="pessoas">
+                <div class="p">
+                <label>Number of people</label>
+                <p id="zero">Can't be zero</p>
+            </div>
+                <input type="text" id="people">
+            </div>
+        </div>
+        <div class="result">
+            <div class="result_tip">
+                <div class="text">
+                    <p>Tip Amount </p>/ person
+                </div>
+                <div class="tip_value" id="tip_amount">$ 0.00
+                </div>
+            </div>
+            <div class="result_total">
+                <div class="text">
+                     <p>Total </p>/ person
+                </div>
+                <div class="tip_value" id="total"> $ 0.00
+                </div>
+            </div>
+            <div class="but"><button id="reset" class="reset">RESET</button></div>            
+        </div>
+    </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/MariaLuisaMD" target="_blank">Maria Luisa Durães</a>.
+    </footer>
+
+    
+</body>
+</html>
