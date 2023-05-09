@@ -26,5 +26,3 @@ Os usuários devem ser capazes de:
 ![](./images/Screenshot_1.png)
 
 
-
-Link: https://marialuisamd.github.io/TIP_CALCULATOR
